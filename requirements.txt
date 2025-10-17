@@ -2,7 +2,6 @@ bcrypt
 jwt
 sqlalchemy
 pydantic
-os
 datetime
 bandit
 pylint
