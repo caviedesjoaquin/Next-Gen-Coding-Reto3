@@ -23,5 +23,9 @@ jobs:
       run: pytest tests/ --cov=src --cov-report=term --cov-report=xml
     - name: Check coverage threshold
       run: pytest tests/ --cov=src --cov-fail-under=80
+    - name: Pylint 
+      run: pylint auth_module/
+    - name: Bandit Scan
+      run: bandit -r auth_module/
     - name: Run scripts
       run: python scripts/ 
