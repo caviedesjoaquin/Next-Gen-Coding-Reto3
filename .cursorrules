@@ -1,0 +1,25 @@
+## Contexto del Proyecto
+### 1. Debe de incluir documentacion clara y detallada.
+### 2. Debe de seguir las mejores practicas de seguridad y desarrollo seguro.
+### 3. Debe de tener codigo limpio y bien estructurado.
+### 7. Seguir TDD estrictamente.
+### 10. Incluir archivo de dependencias (requirements.txt).
+## Requisitos de seguridad:
+### 4. No usar MD5, SHA1 o algoritmos inseguros.
+### 5. Manejo de errores adecuado sin exponer informacion sensible.
+### 6. Buenas practicas de seguridad (inyeccion SQL, XSS, CSRF, etc.)
+### 8. Uso de variables de entorno para configuraciones sensibles.
+### 9. Nunca Hardcodear secretos o configuraciones sensibles.
+### 11. Seguir principios de seguridad OWASP.
+## Requisitos no funcionales:
+### 1. Mantenibilidad mayor a 50
+### 2. Complejidad ciclomática menor a 10
+### 3. Cobertura de pruebas mayor a 85%
+## Estandares de código:
+### 1. Seguir principios SOLID y Clean Code.
+### 2. Seguir PEP8.
+### 3. Documentar con docstrings y ejemplos.
+### 4. Funciones pequeñas < 20 lineas
+### 5. Bajo acoplamiento y alta cohesión
+### 6. Nombres descriptivos y consistentes
+### 7. Evitar duplicacion de codigo
