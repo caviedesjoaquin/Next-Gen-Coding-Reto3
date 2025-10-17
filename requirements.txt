@@ -6,3 +6,4 @@ datetime
 bandit
 pylint
 pytest
+pytest-cov
