@@ -1,1 +1,1 @@
-bcrypt, jwt, sqlalchemy, pydantic, re, os, datetime, bandit
+bcrypt, jwt, sqlalchemy, pydantic, re, os, datetime, bandit, pylint
